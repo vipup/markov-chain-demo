@@ -1,0 +1,80 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #DBDBDB;
+  stroke-width: 1px;
+}
+
+#transition {
+  fill: #B6B6B6;
+}
+
+.link.transition {
+  stroke: #DBDBDB;
+}
+
+circle {
+  fill: #F1F1F1;
+}
+
+circle.current {
+  fill: yellow;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+}
+#canvas {
+  float: left;
+  margin-left: -90px;
+}
+
+#story {
+  float: left;
+  margin-top: 80px;
+  min-height: 500px;
+}
+
+#story h3 {
+  margin: 7px 0;
+}
+
+#story p {
+  margin: 3px 0;
+}
+
+#story #start {
+  margin-top: 10px;
+  display: inline-block;
+  background: #ECECEC;
+  padding: 5px 10px;
+  color: #2F2F2F;
+}
+
+#story #start:active {
+  background: #D0D0D0;
+}
+
+#output {
+  margin: 20px 0;
+  height: 350px;
+  overflow: auto
+}
+
+#output p {
+  background: #F3F3F3;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 15px;
+  font-size: 0.8em;
+}

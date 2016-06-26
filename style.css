@@ -53,6 +53,10 @@ text {
   margin: 3px 0;
 }
 
+#story a {
+  color: #2F2F2F;
+}
+
 #story #start {
   margin-top: 10px;
   display: inline-block;

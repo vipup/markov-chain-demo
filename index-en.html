@@ -2,21 +2,24 @@
 <head>
   <meta charset="utf-8">
   <link href="style.css" rel="stylesheet" />
-  <title>Bitmeyen hikaye</title>
-  <meta property="og:title" content="Bitmeyen hikaye" />
-  <meta property="og:description" content="Markov zincirleri ile bitmeyen hikaye" />
+  <title>Endless Story</title>
+  <meta property="og:title" content="Endless Story" />
+  <meta property="og:description" content="Endless Story with Markov Chains" />
   <meta property="og:image" content="https://raw.githubusercontent.com/fatiherikli/markov-chain-demo/gh-pages/blog-post/preview.png" />
 </head>
-<body data-language="tr">
+<body data-language="en">
 <div id="container">
   <div id="canvas"></div>
   <div id="story">
-    <h3>Markov zincirleri ile bitmeyen hikaye</h3>
-    <p>İlgili blog post'u için <a href="http://blog.fatiherikli.com/post/markov-ile-birtakim-olaylar-zinciri/">buraya</a> tıklanabilir.</p>
+    <h3>Endless story</h3>
+    <p>Probabilistic state transition model. <br />
+       <a href="https://github.com/fatiherikli/markov-chain-demo">source code</a> -
+       <a href="https://www.wikiwand.com/en/Markov_chain">markov chains at wikipedia</a>
+     </p>
     <a href="#"
        id="start"
-       data-toggle="Durdur" 
-       data-continue="Devam et">Hikayeyi başlat</a>
+       data-toggle="Pause" 
+       data-continue="Continue">Start the story</a>
     <div id="output"></div>
   </div>
 </div>

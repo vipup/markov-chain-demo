@@ -31,8 +31,6 @@
     }
   };
 
-  var isRunning = false;
-
   var nextState = function (prev) {
     clearNodeStates();
     setCurrentState(prev);
@@ -50,9 +48,10 @@
       });
     }
 
+    var language = document.body.dataset.language;
     var output = document.getElementById('output');
     var paragraph = document.createElement('p');
-    paragraph.innerHTML = root.__STORY__[prev];
+    paragraph.innerHTML = root.__STORY__[language][prev];
     output.appendChild(paragraph);
     output.scrollTop = output.scrollHeight;
   };

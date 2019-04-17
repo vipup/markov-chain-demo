@@ -1,3 +1,2 @@
-İlgili blog post'u:
+ТУДУ:
 
-<http://fatiherikli.com/blog/post/markov-ile-birtakim-olaylar-zinciri/>

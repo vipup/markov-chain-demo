@@ -21,7 +21,7 @@ circle {
 }
 
 circle.current {
-  fill: yellow;
+  fill: RED;
 }
 
 text {
